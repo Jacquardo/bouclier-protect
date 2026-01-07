@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>BOUCLIER PROTECT</title>
+  <meta name="description" content="BOUCLIER PROTECT — Sécurité privée, gardiennage et protection rapprochée à Madagascar." />
+  <link rel="icon" href="logo-x.png" type="image/x-icon" />
+  <link rel="canonical" href="https://www.bouclier-protect.com/" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Skip link for keyboard users -->
+  <a class="skip-link" href="#main">Aller au contenu</a>
+
+  <div class="container">
+    <header>
+      <!-- Logo positionné à gauche -->
+      <div class="brand" role="banner">
+        <img src="logo.png" alt="Logo BOUCLIER PROTECT" />
+      </div>
+
+      <!-- Titre centré dans l'en-tête -->
+      <div class="header-title">
+        <h1 class="hero-title">BOUCLIER PROTECT</h1>
+        <p class="subtitle">PHYSICAL &amp; DIGITAL SECURITY</p>
+        <div class="tagline">Sécurité privée • Gardiennage • Protection rapprochée</div>
+      </div>
+    </header>
+
+    <main id="main" role="main">
+      <!-- Présentation avec fond animé (crossfade) -->
+      <section
+        class="card presentation-card"
+        aria-labelledby="presentation"
+        data-bg1="bg1.png"
+        data-bg2="bg2.png"
+      >
+        <div class="presentation-bg" aria-hidden="true"></div>
+
+        <div class="presentation-content">
+          <h2 id="presentation">🏢 Aperçu de notre société :</h2>
+
+          <p>
+            <strong>BOUCLIER PROTECT</strong> est une société spécialisée dans les services de sécurité et de
+            gardiennage. Nous offrons des solutions sur mesure pour la protection des biens, des personnes et des
+            événements, avec un personnel formé et des procédures conformes aux normes.
+          </p>
+
+          <div class="contexts" role="list">
+            <!-- Premier contexte : class no-scroll pour masquer la scrollbar visible -->
+            <article class="context no-scroll" id="ctx1-article" aria-labelledby="ctx1" tabindex="0" role="listitem">
+              <h3 id="ctx1">« Des solutions de gardiennage professionnelles pour une sécurité permanente »</h3>
+              <p>Dans un environnement où la sécurité est devenue une priorité essentielle, notre service de gardiennage met à votre disposition des agents qualifiés, disciplinés et dignes de confiance, aptes à assurer la surveillance continue des locaux et des personnes.</p>
+              <p>Grâce à une organisation rigoureuse, une présence dissuasive et des procédures de surveillance efficaces, nous assurons la prévention des vols, des intrusions et des actes de malveillance.</p>
+              <p>Faire appel à notre service, c’est choisir le professionnalisme, la réactivité et la confidentialité, avec des solutions de sécurité adaptées à vos besoins et à votre budget.</p>
+            </article>
+
+            <article class="context" id="ctx2-article" aria-labelledby="ctx2" tabindex="0" role="listitem">
+              <h3 id="ctx2">« Service de gardiennage fiable et sécurisé à Madagascar »</h3>
+              <p>Nous proposons des services de gardiennage fiables et professionnels pour la protection des personnes et des biens à Madagascar. Nos agents assurent la surveillance des entreprises, des résidences et des événements, avec des rondes planifiées et un contrôle d’accès rigoureux.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <aside class="card" aria-labelledby="infos">
+        <h2 id="infos"> Pourquoi nous ? 💡 </h2>
+
+        <div class="contact">
+          <div class="services-title">Nos services :</div>
+          <ul class="services-list">
+            <li>Gardiennage 24/7</li>
+            <li>Rondes et contrôle d’accès</li>
+            <li>Protection d’événements</li>
+            <li>Accompagnement rapproché</li>
+          </ul>
+        </div>
+
+        <div class="actions">
+          <a
+            class="btn whatsapp-inline"
+            id="contactBtn"
+            href="https://wa.me/261384083704"
+            target="_blank"
+            rel="noopener noreferrer"
+            title="Contacter via WhatsApp"
+            aria-label="Contacter via WhatsApp"
+          >
+            Nous contacter
+            <!-- Inline SVG will be created and appended by script.js when needed -->
+          </a>
+
+          <div class="phone" aria-hidden="false">
+            Tél. :
+            <!-- Click-to-call link -->
+            <a href="tel:+261384083704" class="phone-number">+261 38 40 837 04</a>
+
+            <!-- Separate copy button to preserve click-to-call behavior -->
+            <button class="copy-phone-btn" type="button" aria-label="Copier le numéro">Copier</button>
+          </div>
+        </div>
+      </aside>
+    </main>
+
+    <footer>
+      <div class="footer-links">
+        <a href="#" class="footer-link" data-modal="terms">Conditions d’utilisation – Service de Gardiennage</a>
+        <span class="dot">•</span>
+        <a href="#" class="footer-link" data-modal="privacy">Politique de confidentialité</a>
+
+        <!-- signature placée en bas de .footer-links -->
+        <div class="footer-signature" aria-hidden="true">
+          © 2026, by <span class="signature-name">jacquardodev</span> — Made in Mada
+        </div>
+      </div>
+    </footer>
+
+    <!-- Modale Conditions d'utilisation -->
+    <div
+      id="termsModal"
+      class="modal hidden"
+      role="dialog"
+      aria-modal="true"
+      aria-labelledby="termsTitle"
+      aria-hidden="true"
+    >
+      <div class="modal-panel" role="document">
+        <button class="modal-close" aria-label="Fermer la fenêtre">✕</button>
+        <h3 id="termsTitle">Conditions d’utilisation – Service de Gardiennage</h3>
+        <div class="modal-body">
+          <p><strong>En consultant cette page, vous acceptez les conditions suivantes :</strong></p>
+          <p>Cette page a pour objectif de présenter nos services de gardiennage et de surveillance.</p>
+          <p>Les informations fournies sont à titre indicatif et peuvent être modifiées sans préavis.</p>
+          <p>Les prestations de gardiennage font l’objet d’un accord préalable entre le client et notre service.</p>
+          <p>Nous nous engageons à assurer la surveillance avec professionnalisme, sans toutefois garantir une sécurité absolue.</p>
+          <p>Toute utilisation abusive du contenu de la page (textes, images, logo) est strictement interdite.</p>
+          <hr />
+          <p><strong>Engagement</strong></p>
+          <p>
+            Notre service de gardiennage respecte les règles en vigueur à Madagascar et s’engage à agir avec sérieux,
+            discrétion et professionnalisme.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modale Politique de confidentialité -->
+    <div
+      id="privacyModal"
+      class="modal hidden"
+      role="dialog"
+      aria-modal="true"
+      aria-labelledby="privacyTitle"
+      aria-hidden="true"
+    >
+      <div class="modal-panel" role="document">
+        <button class="modal-close" aria-label="Fermer la fenêtre">✕</button>
+        <h3 id="privacyTitle">Politique de confidentialité</h3>
+        <div class="modal-body">
+          <p><strong>Nous accordons une importance particulière à la protection de vos données :</strong></p>
+          <p>
+            Les informations collectées (nom, numéro de téléphone, adresse, message) sont utilisées uniquement dans le
+            cadre des demandes de devis, contrats et prestations de gardiennage.
+          </p>
+          <p>Vos données personnelles sont traitées de manière confidentielle et ne sont ni vendues ni partagées avec des tiers.</p>
+          <p>Les échanges (messages, appels, formulaires) sont strictement réservés à un usage professionnel.</p>
+          <p>Vous pouvez demander l’accès, la modification ou la suppression de vos données en nous contactant directement.</p>
+          <hr />
+          <p><strong>Engagement</strong></p>
+          <p>
+            Notre service de gardiennage respecte les règles en vigueur à Madagascar et s’engage à agir avec sérieux,
+            discrétion et professionnalisme.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
